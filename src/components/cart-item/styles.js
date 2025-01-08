@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const CartItemContainer = styled.div`
   display: flex;
@@ -8,7 +8,11 @@ export const CartItemContainer = styled.div`
   p {
     color: #222222;
   }
-`;
+
+  svg {
+    color: #222222;
+  }
+`
 
 export const CartItemImage = styled.div`
   background-image: ${(props) => `url('${props.imageUrl}')`};
@@ -20,7 +24,7 @@ export const CartItemImage = styled.div`
   display: block;
   border-radius: 10px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-`;
+`
 
 export const CartItemInfo = styled.div`
   display: flex;
@@ -36,7 +40,7 @@ export const CartItemInfo = styled.div`
   p:nth-child(2) {
     font-weight: 500;
   }
-`;
+`
 
 export const CartItemQuantity = styled.div`
   display: flex;
@@ -51,7 +55,7 @@ export const CartItemQuantity = styled.div`
   svg:hover {
     cursor: pointer;
   }
-`;
+`
 
 export const RemoveButton = styled.div`
   margin-right: 20px;
@@ -59,4 +63,4 @@ export const RemoveButton = styled.div`
   &:hover {
     cursor: pointer;
   }
-`;
+`
